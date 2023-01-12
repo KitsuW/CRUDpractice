@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.sign-up-card{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.registered-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-list{
+    background-image: url(https://cdn.donmai.us/original/61/8e/__c_c_code_geass_drawn_by_creayus__618ec2fceef827668d2a5d3896713832.jpg);
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 80vh;
+    background-size: cover;
+    padding: 3rem 2rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.user-card{
+    background-color: rgba(240, 248, 255, 0.4);
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid rgb(15, 15, 15);
+}
