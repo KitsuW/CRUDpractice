@@ -11,8 +11,8 @@ const UserList = ({userList, deleteUser, editUser}) => {
                         <p><b>Last Name: </b>{user.lastName}</p>
                         <p><b>Email: </b>{user.email}</p>
                         <p><b>Birthday: </b>{user.birthday}</p>
-                        <button onClick={() => deleteUser(user)}>Delete</button>
                         <button onClick={() => editUser(user)}>Edit</button>
+                        <button onClick={() => deleteUser(user)}>Delete</button>
                     </div>
                 ))}
             </div>
